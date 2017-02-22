@@ -23,4 +23,9 @@ class TestCoinChanger < Minitest::Test
 	  assert_equal({nickel: 1},results)
 	end	
 
+	def test_pass_forty_one_cents_returns_hash_with_four_dimes_and_one_penny
+    	results = get_change(41)
+    	assert_equal({quarter:1, dime: 1, nickel: 1, penny: 1}, results)
+	end
+
 end
