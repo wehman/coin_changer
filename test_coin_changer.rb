@@ -18,8 +18,9 @@ class TestCoinChanger < Minitest::Test
 	  assert_equal({penny: 2},results)
 	end
 
-#	def test_pass_five_cents_returns_hash_with_one_nickel
-#	  results = get_change(5)
-#	  assert_equal({nickel: 1},results)
-#	end	
+	def test_pass_five_cents_returns_hash_with_one_nickel
+	  results = get_change(5)
+	  assert_equal({nickel: 1},results)
+	end	
+
 end
