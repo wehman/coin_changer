@@ -1,0 +1,14 @@
+form {text_align: center} 
+
+	.center {text-align: center;
+	}
+
+	.gold_color{
+		color: #9700ff;
+	}
+
+	.bg_color{
+		background-color:blue;
+	}
+	
+}
