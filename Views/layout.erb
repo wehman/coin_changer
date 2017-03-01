@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="styles/styles.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
 	</head>
 
-	<header>
-		<h1 class="center">Money Change Maker</h1>
-	</header>
-
 	<body>
+	
+		<header>
+			<center><h1><a class="header_money_gold">Money Change Maker</a></h1></center>
+		</header>
+
 		<center><%= yield %></center>
+	
+		<br>
+		<br>
+
+		<footer>
+			<center><a class="blue_footer" href="http://www.citizensbank.com">Visit Citizen's Bank for Your Change Needs</a></center>
+		
+		</footer>
+
 	</body>
 
-	<br>
-	<br>
-	<footer>
-		<div #class="center">
-			<a href="http://www.citizensbank.com">Visit Citizen's Bank for Your Change Needs</a>
-		</div>
-	</footer>
 </html>

@@ -1,14 +1,15 @@
-form {text_align: center} 
+ .center {
+ 	text-align: center;
+ }
 
-	.center {text-align: center;
+.header_money_gold {
+		color: #ffd700;
+		font-size: 32px;
 	}
 
-	.gold_color{
-		color: #9700ff;
-	}
-
-	.bg_color{
-		background-color:blue;
+.blue_footer {
+		color: blue;
+		font-size: 16px;
 	}
 	
 }
